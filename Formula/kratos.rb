@@ -2,26 +2,26 @@
 class Kratos < Formula
   desc "Mindful, controllable coding-agent harness"
   homepage "https://github.com/ameerthehacker/kratos"
-  version "0.16.0"
+  version "0.16.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/ameerthehacker/kratos/releases/download/v0.16.0/kratos-0.16.0-darwin-arm64.tar.gz"
-      sha256 "e2a6e99bea826be52f1b64cc5058838b6af2a04ab9991e41d45d5b08d167ba87"
+      url "https://github.com/ameerthehacker/kratos/releases/download/v0.16.1/kratos-0.16.1-darwin-arm64.tar.gz"
+      sha256 "d961887f0641a310a95eb87863a2c278be9688e4a6b1870c51f2d4339fc5b6c0"
     end
     on_intel do
-      url "https://github.com/ameerthehacker/kratos/releases/download/v0.16.0/kratos-0.16.0-darwin-x64.tar.gz"
-      sha256 "8a0f3fd828d732d710b5ae10c04ffed84a051c2ee160be93c84658d45e31759a"
+      url "https://github.com/ameerthehacker/kratos/releases/download/v0.16.1/kratos-0.16.1-darwin-x64.tar.gz"
+      sha256 "f32cc26ee6fca303c43c4d36cf30a594dc34f43bfe35f2d776e18dcdcca805c5"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/ameerthehacker/kratos/releases/download/v0.16.0/kratos-0.16.0-linux-arm64.tar.gz"
-      sha256 "b4bc2a02bdf30dd27b245a660c32d5ddf2eb2d09d740653e96850591667a33d7"
+      url "https://github.com/ameerthehacker/kratos/releases/download/v0.16.1/kratos-0.16.1-linux-arm64.tar.gz"
+      sha256 "71510db4619e0c7321d9155d4e1fffc6754423d6738656a427216ff9c4282235"
     end
     on_intel do
-      url "https://github.com/ameerthehacker/kratos/releases/download/v0.16.0/kratos-0.16.0-linux-x64.tar.gz"
-      sha256 "324aa62bad1c9c19baa0094891063190169e794319293f30cfb981cd8ffdbfde"
+      url "https://github.com/ameerthehacker/kratos/releases/download/v0.16.1/kratos-0.16.1-linux-x64.tar.gz"
+      sha256 "328941675200a27aa9e2c669dc2e96f551c4928d0fcafee9dc861d7bc6f9d9b2"
     end
   end
 
